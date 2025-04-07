@@ -1,2 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+  --color-blacknight: #040a18;
+  --color-midnight: #010c1c;
+  --color-smallnight: #20222e;
+  --color-lightnight: #bfcbe1;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #9b9b9b;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #666666;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #1d1d1d;
+}
