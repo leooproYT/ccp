@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+    
+        .neon-text {
+            text-shadow: 0 0 5px #fff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff;
+        }
+    
+       
+        .glow-button {
+            box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+        }
+    
+        
+        body {
+            background: linear-gradient(135deg, #1e293b, #111827);
+            animation: gradient-animation 10s infinite alternate;
+        }
+    
+        @keyframes gradient-animation {
+            0% {
+                background: linear-gradient(135deg, #1e293b, #111827);
+            }
+            100% {
+                background: linear-gradient(135deg, #111827, #1e293b);
+            }
+        }
+    </style>
 </head>
-<body>
-    hALLO WORLDsssss
+<body class="bg-black h-screen">
+    <main>
+    
+    
+        
+        <header class="w-full grid grid-cols-3 h-16 bg-gradient-to-r from-purple-700 via-blue-600 to-indigo-800 shadow-lg">
+            <div></div>
+            <div class="flex justify-center items-center">
+                <h1 class="text-center text-white text-3xl font-extrabold neon-text"><a href="index.html">🛒 Alibaba Prime ⭐</a></h1>
+            </div>
+            <nav class="justify-end items-center gap-2 flex px-4">
+                <a href="leo.html" class="text-gray-300 hover:text-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" class="fill-white">
+                        <path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path>
+                        <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                        <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                    </svg>
+                </a>
+                <a href="./david.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" class="fill-white">
+                        <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path>
+                        <path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path>
+                    </svg>
+                </a>
+            </nav>
+        </header>
+        <div class="w-full bg-color-black h-200">
+        d
+        </div>
+        <div class="flex justify-center gap-10 mt-10">
+            <a href="mailto:Leo.evander08@gmail.com" class="bg-white text-xl rounded-lg p-10 w-[30%] text-center transform transition-transform duration-300 hover:scale-110">
+                <h2 class="text-xl font-bold text-gray-800">Email Us</h2>
+                <p class="text-gray-600 mt-2">Leo.evander08@gmail.com</p>
+                <p class="text-gray-600 mt-2">Call us: +1-800-123-4567</p>
+            </a>
+            <div class="bg-white rounded-lg p-10 h-[75%] w-[30%] text-center transform transition-transform duration-300 hover:scale-110 overflow-auto">
+            <h2 class="text-xl font-bold text-gray-800">Why we started</h2>
+            <p class="text-gray-600 mt-2">Starting Alibaba Prime was a wild ride—literally. It all began with a simple idea: people love bikes, but not everyone can afford a brand-new one. We saw an opportunity in the second-hand bike market—great bikes sitting unused, while others were out there looking for affordable, high-quality rides. So, we decided to bridge the gap. At first, it was just a side hustle. We’d hunt for pre-owned bikes, refurbish them, and flip them for a fair price. But as word spread, demand skyrocketed. What started in a garage quickly turned into something much bigger. We built relationships with suppliers, streamlined our refurbishing process, and even started offering custom upgrades. Now, Alibaba Prime isn’t just about reselling bikes—it’s about making cycling accessible, sustainable, and stylish. Whether it’s a city commuter, a mountain beast, or a sleek road racer, we make sure every bike finds its perfect rider. And we’re just getting started! 🚴💨</p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
